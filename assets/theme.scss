@@ -1,0 +1,22 @@
+@import "~vue-material/dist/theme/engine"; // Import the theme engine
+
+@include md-register-theme("default", (
+  primary: md-get-palette-color(lightgreen, 400), // The primary color of your application
+  accent: md-get-palette-color(red, A400), // The accent or secondary color
+  theme: dark // This can be dark or light
+));
+
+@import "~vue-material/dist/theme/all"; // Apply the theme
+
+
+/* Page Transition */
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.25s;
+}

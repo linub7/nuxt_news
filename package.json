@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-news",
+  "version": "1.0.0",
+  "description": "A news App. built with nuxt2 and firestore",
+  "author": "lin7",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/proxy": "^2.0.1",
+    "cross-env": "^5.2.0",
+    "date-fns": "^2.16.1",
+    "firebase": "^8.1.1",
+    "js-cookie": "^2.2.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "nuxt": "^2.0.0",
+    "slugify": "^1.4.6",
+    "uuid": "^8.3.1",
+    "uuidv4": "^6.2.5",
+    "vue-material": "^1.0.0-beta-15",
+    "vue-uuid": "^2.0.2",
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^10.1.0"
+  }
+}
